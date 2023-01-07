@@ -1,5 +1,6 @@
+import React from "react";
 import Navbar from "./Components/Layout/Navbar";
-import "./App.css";
+
 import Section1 from "./Sections/Section1";
 import Section2 from "./Sections/Section2";
 import Section4 from "./Sections/Section4";
@@ -12,9 +13,9 @@ import Section10 from "./Sections/Section10";
 import Section11 from "./Sections/Section11";
 import Footer from "./Components/Layout/Footer";
 
-function App() {
+const Home = () => {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Section1 />
       <Section2 />
@@ -29,6 +30,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
-export default App;
+export default Home;
