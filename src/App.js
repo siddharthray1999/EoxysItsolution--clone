@@ -14,7 +14,7 @@ import Footer from "./Components/Layout/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container" style={{ maxWidth: "100%" }}>
       <Navbar />
       <Section1 />
       <Section2 />
